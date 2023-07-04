@@ -1,0 +1,13 @@
+
+public class Test {
+
+     public static void main(String[] args) {
+        
+         int n1 = 1110, n2 = 1001 , n3 = 1000;
+
+         if(n1 > n2 && n1 > n3) System.out.println("First Number is greatest");
+         else if(n2 > n1 && n2 > n3) System.out.println("Second Number Is Greatest"); 
+         else System.out.println("Third Number is Greatest");
+
+      }
+}
