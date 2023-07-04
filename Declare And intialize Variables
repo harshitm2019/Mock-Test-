@@ -1,0 +1,13 @@
+
+public class Test {
+
+     public static void main(String[] args) {
+        
+      
+        int sum = 10;
+        double money = 1000.9;
+
+        String s = "PPT";
+
+      }
+}
