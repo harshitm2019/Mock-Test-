@@ -1,0 +1,35 @@
+class Person{
+
+   private String name  , address;
+   private int age;
+
+   void setter(String n , String add,int a){
+
+            name = n;
+            address  = add;
+            age = a;
+   }
+
+   void getter(){
+
+        System.out.println("Name  = " + name);
+        System.out.println("Address = " + address);
+        System.out.println("Age = " + age);
+
+   }
+}
+
+public class Test2{
+
+          public static void main(String[] args) {
+            
+                  Person obj = new Person();
+
+                  obj.setter("Harshit", "delhi", 23);
+
+                  obj.getter();
+
+
+          }
+   
+}
